@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    background-color:white;
+    padding:0%;
+    margin:0%;
+}
+
+.containers{
+    width:80%;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#magnus{
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:#CADCFC;
+    color:#00246B;
+    padding:10px 0;
+    font-size: 20px;
+}
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+header li{
+    display:inline;
+    padding:0 20px;
+    font-weight:bold;
+    font-size:20px;
+    font-family:'Roboto', sans-serif;
+}
+
+header a{
+    color:rgb(59, 56, 56);
+    text-decoration: none;
+}
+
+header a:hover{
+    color:lightseagreen;
+}
+
+.box_1{
+    width: 20;
+    float:left;
+    padding: 10px;
+}
+
+.box_1 img{
+    display:block;
+    margin:auto;
+}
+
+.box-2{
+    width:60%;
+    float:right;
+    padding:10px;
+    text-align:justify;
+}
+
+h2{
+    font-size:30px;
+    font-family:'Roboto', sans-serif;
+    color:#00246B;
+}
+
+button{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid #00246B;
+    color: #00246B;
+}
+
+button:hover{
+    color:lightseagreen;
+    background-color:#CADCFC;
+}
+/* achievement section */
+#box{
+    float:left;
+    text-align:left;
+    margin:1rem;
+    position:relative;
+    font-size:17px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+#box img{
+    display:block;
+    margin:auto
+}
+#box-heading{
+    text-align:center;
+}
+
+.card {
+    background:white;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 1rem;
+    position: relative;
+    align-self: auto;
+    width:100%;
+}
+
+.card:hover{
+    background-color:#CADCFC;
+    color:rgb(10, 122, 117);
+    font-size:17px;
+    font-family:'Times New Roman', Times, serif;
+}
+  
+.card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    align-self:auto;
+    width:100%;
+}
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+
+  p{
+    font-size:17px;
+    font-family:'Times New Roman', Times, serif;
+  }
+/* End of Achievement Section */
+/*Contact Section*/
+#forms h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size:30px;
+    font-weight: bold;
+    color:#00246B;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#forms{
+    margin:5% 25%;
+    padding: 70px;
+    background-color: white;
+    text-align: center;
+}
+#forms .forms-group{
+    font-size:20px;
+    color:#00246B;
+    font-weight:bold;
+}
+
+input{
+    width:254px;
+    padding:5px;
+    margin:2px 0;
+}
+footer{
+    padding: 10px;
+    color: #00246B;
+    background-color: white;
+    text-align: center;
+}
